@@ -1,0 +1,109 @@
+body {
+    margin: 30px 0 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    padding: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    margin: 5px 15px;
+    gap:20px;
+    position: relative;
+  }
+  
+  .content h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+  }
+
+  .card-atas{
+    width: 100%;
+    height: auto;
+    grid-column: span 2;
+    margin: 10px 0;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    border: 4px solid red;
+  
+  }
+
+  .card-bawah{
+    width: 100%;
+    height: auto;
+    grid-column: span 2;
+    margin: 10px 0;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    border: 4px solid blue;
+  
+  }
+  
+  .head-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .body-card {
+    padding: 10px 15px;
+    border-radius : 15px;
+    
+  }
+  
+  .body-card-atas h1 {
+    margin: 0;  
+    color: brown;
+    text align: center;
+  }
+
+  .body-card-bawah h1 {
+    margin: 0;  
+    color: red;
+    text align: center;
+  
+  }
+  
+  
+  .body-card svg {
+    width: 31px;
+    position: absolute;
+    bottom: 7px;
+    right: 20px;
+    
+  }
+  
+  .pertama {
+    color: green;
+    }
+    
+    .kedua {
+    color: #335599;
+    }
+  
+
+  @media screen and (min-width: 550px) {
+    .card {
+    grid-column: span 2;
+    grid-rows: span 4;
+  
+  }
+  
+  
+  @media screen and (min-width: 760px) {
+  
+    .card {
+    width: 350px;
+    margin: 0 10px;
+  }
+  
+  @media screen and (min-width: 960px) {
+  
+  }
